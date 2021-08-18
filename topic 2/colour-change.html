@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8" />
+    <meta name="description" content="A web page about IoT Applications" />
+    <meta name="author" content="Kinshuk Jain" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <title>Lights</title>
+</head>
+
+<body>
+    <h1>Light colour change</h1>
+
+    <p>Select the light you want to change for:</p>
+
+    <div>
+          <input type="radio" name="light" id="ligh1" value="light1">
+        <label for="ligh1">Light 1</label><br>
+        <div class="light1" id="light1"></div>
+
+         
+    </div>
+    <div>
+          <input type="radio" name="light" id="ligh2" value="light2">
+        <label for="ligh2">Light 2</label><br>
+        <div class="light2" id="light2"></div>
+         
+    </div>
+    <div>
+          <input type="radio" name="light" id="ligh3" value="light3">
+        <label for="ligh3">Light 3</label><br>
+        <div class="light3" id="light3"></div>
+         
+    </div>
+    <input type="radio" name="light" id="ligh4" value="light4">
+    <label for="ligh4">Light 4</label><br><br>
+    <div class="light4" id="light4"></div>
+     
+    </div>
+
+    <p>
+    <h2>Colour Change:</h2>
+
+    <label>Red:</label>
+    <input type="range" id="rangeRed" value="4" min="0" max="255"> <br>
+
+    <label>Green:</label>
+    <input type="range" id="rangeGreen" value="4" min="0" max="255"> <br>
+
+    <label>Blue:</label>
+    <input type="range" id="rangeBlue" value="4" min="0" max="255"> <br>
+
+    </p>
+    <button type="submit" id="submit" onclick="Changecolor()">Change Colour</button>
+    </form>
+    <br>
+</body>
+
+</html>

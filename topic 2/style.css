@@ -1,0 +1,37 @@
+.labels {
+    color: rgb(15, 6, 6);
+    padding: 8px;
+    font-family: Arial;
+  }
+  
+
+
+  .light1 {
+    background: rgb(203, 206, 24);
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+  }
+
+  .light2 {
+    background: rgb(199, 84, 8);
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+  }
+
+  .light3 {
+    background: rgb(70, 185, 238);
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+  }
+
+  .light4 {
+    background: rgb(206, 24, 151);
+    clip-path: circle(50%);
+    height: 5em;
+    width: 5em;
+  }
+
+  
